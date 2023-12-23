@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        tools:context=".ParkinglotEditFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="0dp"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_gravity="start"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:textSize="20dp"
+        android:text="Token Number:" />
+
+    <EditText
+        android:id="@+id/editParkinglotTokenNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_weight="1"
+        android:tooltipText="Token Number"
+        android:hint="Token Number"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:textSize="20dp"
+        android:text="Type: " />
+
+    <EditText
+        android:id="@+id/editParkinglotType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:hint="Type"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:textSize="20dp"
+        android:text="Size:" />
+
+    <EditText
+        android:id="@+id/editParkinglotSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="7"
+        android:layout_weight="1"
+        android:hint="Size"
+        android:textSize="20dp"
+        android:inputType="number"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="9"
+        android:textSize="20dp"
+        android:text="Weight: " />
+
+    <EditText
+        android:id="@+id/editParkinglotWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="10"
+        android:hint="Weight"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="number"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="11"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="12"
+        android:textSize="20dp"
+        android:text="Booking Time:" />
+
+    <EditText
+        android:id="@+id/editParkinglotBookingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="13"
+        android:hint="Booking Time"
+
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="14"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="15"
+        android:textSize="20dp"
+        android:text="Booking Time To: " />
+
+    <EditText
+        android:id="@+id/editParkinglotBookingTimeTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="16"
+        android:hint="Booking Time To"
+        android:focusable="true"
+
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="17"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="18"
+        android:textSize="20dp"
+        android:text="Booking Status: " />
+
+    <EditText
+        android:id="@+id/editParkinglotBookingStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="19"
+        android:hint="Booking Status"
+        android:focusable="true"
+
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="20"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="21"
+        android:textSize="20dp"
+        android:text="Price: " />
+
+    <EditText
+        android:id="@+id/editParkinglotPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="22"
+        android:hint="Price"
+        android:focusable="true"
+
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="number"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="23"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="24"
+        android:textSize="20dp"
+        android:text="Status: " />
+
+    <EditText
+        android:id="@+id/editParkinglotStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="25"
+        android:hint="Status"
+android:focusable="true"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_row="26"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+
+    <Button
+        android:id="@+id/editParkinglotSaveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="27"
+        android:layout_column="0"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/editParkinglotCancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="27"
+        android:layout_column="0"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginLeft="100dp"
+        android:text="Cancel" />
+
+</GridLayout>
+
+</RelativeLayout>
+
+        </ScrollView>
